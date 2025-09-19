@@ -103,6 +103,26 @@
       "id": 4
     }
   ],
+  "avisos": [
+    {
+      "id": 1,
+      "titulo": "Manutenção no sistema",
+      "descricao": "Teste1",
+      "data": "10/09/2025"
+    },
+    {
+      "id": 2,
+      "titulo": "Nova funcionalidade lançada",
+      "descricao": "Estamos empolgados em anunciar a nova funcionalidade que melho",
+      "data": "2024-06-05"
+    },
+    {
+      "id": 3,
+      "titulo": "TESTE Criando",
+      "descricao": "criando um aviso ",
+      "data": "10/09/2025"
+    }
+  ],
   "auth": {
     "accessToken": "aaaaaaaaaa.bbbbbbbbbb.cccccccc"
   }

@@ -8,6 +8,8 @@ import {
   ListagemDePessoas,
   DetalheDeCidades,
   ListagemDeCidades,
+  ListagemDeAvisos,
+  DetalheDeAvisos,
 } from '../pages';
 
 export const AppRoutes = () => {
@@ -30,6 +32,11 @@ export const AppRoutes = () => {
         path: '/pessoas',
         label: 'Pessoas',
       },
+      {
+        icon: 'announcement',
+        path: '/avisos',
+        label: 'Avisos',
+      },
     ]);
   }, []);
 
@@ -43,6 +50,9 @@ export const AppRoutes = () => {
       <Route path="/cidades" element={<ListagemDeCidades />} />
       <Route path="/cidades/detalhe/:id" element={<DetalheDeCidades />} />
 
+      <Route path="/avisos" element={<ListagemDeAvisos />} />
+      <Route path="/avisos/detalhe/:id" element={<DetalheDeAvisos />} />
+      
       <Route path="*" element={<Navigate to="/pagina-inicial" />} />
     </Routes>
   );
