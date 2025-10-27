@@ -1,0 +1,27 @@
+# Pastas que não precisam ir pro container
+node_modules
+.next
+build
+dist
+
+# Logs e caches
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.cache
+.next/cache
+
+# Git e configs locais
+.git
+.gitignore
+.dockerignore
+
+# Configurações do editor
+.vscode
+.idea
+*.swp
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
